@@ -10,8 +10,8 @@ The following code is used to compute EOFs using temporal covariance. The progra
     -Note: it is important that prior to computing covariance the weighted anomalies are rid of NaNs and in a matrix that is N' by Y where N' is the new number of gridpoints without NaNs. 
 4. Eigenvalues and eigenvectors are computed from temporal covariance
 5. EOFs are computed using
-<div align="center">
-$EOF =\frac{A \vec{v}}{norm(A \vec{v})} $
+
+$$ EOF =\frac{A \vec{v}}{norm(A \vec{v})} $$
 
 
     where:
