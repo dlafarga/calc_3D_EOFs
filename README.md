@@ -11,7 +11,9 @@ The following code is used to compute EOFs using temporal covariance. The progra
 4. Eigenvalues and eigenvectors are computed from temporal covariance
 5. EOFs are computed using
 
-$EOF =\frac{A \vec{v}}{norm(A \vec{v})}$
+$$
+EOF =\frac{A \vec{v}}{norm(A \vec{v})}
+$$
 
 
     where:
